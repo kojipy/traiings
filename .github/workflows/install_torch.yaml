@@ -1,0 +1,9 @@
+name: install-torch
+run-name: install-torch
+on: [push]
+jobs:
+  install:
+    runs-on: ubuntu20.04
+    steps:
+      - run: pip install torch
+      - run: pip show torch
