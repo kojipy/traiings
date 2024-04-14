@@ -8,4 +8,4 @@ setup:
 
 .PHONY: test
 test:
-	${PYTHON} -m pytest .
+	${PYTHON} -m pytest ./tests
