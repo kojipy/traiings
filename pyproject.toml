@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "actions-training"
+version = "0.1.0"
+description = ""
+authors = ["ryu <43063676+kojipy@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "actions_training"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pytest = "^8.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
