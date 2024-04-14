@@ -1,9 +1,9 @@
 PYTHON = .venv/bin/python
+POETRY = .venv/bin/poetry
 
 .PHONY: setup
 setup:
-	python3 -m venv .venv
-	${PYTHON} -m pip install -r requirements.txt
+	${POETRY} install
 
 
 .PHONY: test
