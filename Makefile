@@ -5,7 +5,7 @@ POETRY := $(shell command -v poetry 2> /dev/null)
 install/poetry:
 	curl -sSL https://install.python-poetry.org | POETRY_HOME=~/.local/bin/poetry python3 -
 	export PATH="~/.local/bin/poetry/bin:$$PATH"
-	$(POETRY) config virtualenvs.in-project null
+	poetry config virtualenvs.in-project null
 
 
 
