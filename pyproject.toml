@@ -10,6 +10,8 @@ packages = [{include = "actions_training"}]
 python = "^3.10"
 pytest = "^8.1.1"
 
+[tool.pytest.ini_options]
+pythonpath = "src"
 
 [build-system]
 requires = ["poetry-core"]
